@@ -55,7 +55,7 @@ public class Slot {
                 
             }
         }
-        else throw new VehicleNotFoundException(" > No Vehicle Parked Here");
+        throw new VehicleNotFoundException(" > No Vehicle Parked Here");
     } //finished |
 
     public static List<Slot> getOccupiedSlots(){
