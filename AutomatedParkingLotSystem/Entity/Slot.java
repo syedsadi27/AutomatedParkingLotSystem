@@ -52,10 +52,10 @@ public class Slot {
                     System.out.println(" > slot no : " + s.slotNumber + " is Available");
                     return;
                 }
-                else throw new VehicleNotFoundException(" > No Vehicle Parked Here");
+                
             }
         }
-        return;
+        else throw new VehicleNotFoundException(" > No Vehicle Parked Here");
     } //finished |
 
     public static List<Slot> getOccupiedSlots(){
